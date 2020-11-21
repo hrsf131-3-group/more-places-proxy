@@ -57,8 +57,8 @@ module.exports = {
     bundle: 'app.js',
   },
   service4: {
-    api: 'FIX_ME',
+    api: '/api/homes/:id/nearby',
     url: 'http://localhost:3004',
-    bundle: 'app.js',
+    bundle: 'morePlaces.js',
   },
 };
